@@ -1,0 +1,67 @@
+How to add an http request in client code
+   Steps:
+   1.install requests libary
+      pip install requests
+   2. Add the snippets below  in your service 
+      python file 
+
+     
+     Sample1 HTTP GET 
+
+     import requests
+     
+     # Some codes here
+
+     #the mock server is statically set to port 8000
+     #API100 is the API to be use. You can change the API name based on what youve add in the mockserver
+     mock_users_url = 'http://localhost:{port}/API100'.format(port=8000)
+     
+     #send an http get request pasing the url
+     response = requests.get(mock_users_url)
+     
+
+     #check the response status code. 200 -299 means succesful response
+     if response.status_code >= 200 or response.status_code < 299:
+     	#get the json data response
+     	data = response.json()  
+     else:
+       pass
+
+     #some codes here for template rendering
+
+    Sample2 HTTP GET Adding a query string
+
+   
+     import requests
+     
+     # Some codes here 
+
+     #the mock server is statically set to port 8000
+     #API100 is the API to be use. You can change the API name based on what youve add in the mockserver
+     mock_users_url = 'http://localhost:{port}/API100'.format(port=8000)
+     
+     query = {"userName":'cbs',id:'123456'}
+     #send an http get request pasing the url
+     response = requests.get(mock_users_url, params= query)
+     
+
+     #check the response status code. 200 -299 means succesful response
+     if response.status_code >= 200 or response.status_code < 299:
+     	#get the json data response
+     	data = response.json()  
+     else:
+       pass 
+
+     #some codes here for template rendering
+
+   3. You can add HTTP POST,PUT DELETE
+      Please refer heere for sample snippets:https://realpython.com/python-requests/
+
+
+
+     
+     
+  
+
+
+      

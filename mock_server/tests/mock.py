@@ -78,17 +78,16 @@ class MockServerRequestHandler(BaseHTTPRequestHandler):
 
             self.send_header('Content-Type', 'application/json; charset=utf-8')
             self.end_headers()
-
-            response_content =  None
+            response_content = None
             try:
                 path = os.getcwd()
-                with open('./tests/test_data/success01.json') as json_file:
+                with open('./tests/test_data/success01.json' , encoding="utf-8") as json_file:
                     data = json.load(json_file)
-                    response_content = json.dumps(data)
-                    pass
+                    response_content = json.dumps(data , ensure_ascii=False)
             except Exception as e:
                 print(str(e))
-            self.wfile.write(response_content.encode('utf-8'))
+            if response_content:
+                self.wfile.write(response_content.encode('utf-8'))
             return
         elif re.search(self.API200_PATTERN, self.path):
             # Add response status code.
@@ -96,17 +95,16 @@ class MockServerRequestHandler(BaseHTTPRequestHandler):
 
             self.send_header('Content-Type', 'application/json; charset=utf-8')
             self.end_headers()
-
-
             response_content = None
             try:
                 path = os.getcwd()
-                with open('./tests/test_data/success02.json') as json_file:
+                with open('./tests/test_data/success02.json' , encoding="utf-8") as json_file:
                     data = json.load(json_file)
-                    response_content  = json.dumps(data)
+                    response_content = json.dumps(data , ensure_ascii=False)
             except Exception as e:
                 print(str(e))
-            self.wfile.write(response_content.encode('utf-8'))
+            if response_content:
+                self.wfile.write(response_content.encode('utf-8'))
             return
         elif re.search(self.API300_PATTERN, self.path):
             # Add response status code.
@@ -114,16 +112,16 @@ class MockServerRequestHandler(BaseHTTPRequestHandler):
 
             self.send_header('Content-Type', 'application/json; charset=utf-8')
             self.end_headers()
-
             response_content = None
             try:
                 path = os.getcwd()
-                with open('./tests/test_data/success03.json') as json_file:
+                with open('./tests/test_data/success03.json' , encoding="utf-8") as json_file:
                     data = json.load(json_file)
-                    response_content = json.dumps(data)
+                    response_content = json.dumps(data , ensure_ascii=False)
             except Exception as e:
                 print(str(e))
-            self.wfile.write(response_content.encode('utf-8'))
+            if response_content:
+                self.wfile.write(response_content.encode('utf-8'))
             return
 
 def get_free_port():

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0af92ea1-8483-4a47-b2d4-85cd8413134c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bLltGOV2EeKwOuIx5E1TA4xP6j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Distillery" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.Start">
+    <configuration name="Start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Start" />
+        <item itemvalue="Python.db" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0af92ea1-8483-4a47-b2d4-85cd8413134c" name="Default Changelist" comment="" />
+      <created>1588419467829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588419467829</updated>
+      <workItem from="1588419470145" duration="339000" />
+      <workItem from="1588420556512" duration="1133000" />
+      <workItem from="1588422563097" duration="1793000" />
+      <workItem from="1588424445172" duration="749000" />
+      <workItem from="1588458685044" duration="1447000" />
+      <workItem from="1588460565611" duration="1706000" />
+      <workItem from="1588462383641" duration="1860000" />
+      <workItem from="1588464699401" duration="2044000" />
+      <workItem from="1588468363695" duration="1166000" />
+      <workItem from="1588470393937" duration="599000" />
+      <workItem from="1588486745396" duration="1793000" />
+      <workItem from="1588488556741" duration="1797000" />
+      <workItem from="1588490416146" duration="654000" />
+      <workItem from="1588494606131" duration="1795000" />
+      <workItem from="1588496416156" duration="639000" />
+      <workItem from="1588530587513" duration="1730000" />
+      <workItem from="1588532645553" duration="1012000" />
+      <workItem from="1588550839821" duration="619000" />
+      <workItem from="1588735281076" duration="597000" />
+      <workItem from="1589157172481" duration="1658000" />
+      <workItem from="1589161233636" duration="1780000" />
+      <workItem from="1589163044056" duration="1752000" />
+      <workItem from="1589174148356" duration="1788000" />
+      <workItem from="1589175977789" duration="1240000" />
+      <workItem from="1589181557470" duration="1455000" />
+      <workItem from="1589183288997" duration="606000" />
+      <workItem from="1589185441046" duration="1294000" />
+      <workItem from="1589188163011" duration="623000" />
+      <workItem from="1589193713902" duration="683000" />
+      <workItem from="1589222625386" duration="1791000" />
+      <workItem from="1589224438449" duration="1778000" />
+      <workItem from="1589226248127" duration="1836000" />
+      <workItem from="1589230583996" duration="1788000" />
+      <workItem from="1589235854286" duration="1796000" />
+      <workItem from="1589237684439" duration="1787000" />
+      <workItem from="1589239541271" duration="346000" />
+      <workItem from="1589240869865" duration="1263000" />
+      <workItem from="1589250545764" duration="1463000" />
+      <workItem from="1589253259514" duration="1361000" />
+      <workItem from="1589255778639" duration="1119000" />
+      <workItem from="1589257766325" duration="710000" />
+      <workItem from="1589259869278" duration="1545000" />
+      <workItem from="1589331971319" duration="1746000" />
+      <workItem from="1589333739527" duration="1791000" />
+      <workItem from="1589335556134" duration="1446000" />
+      <workItem from="1589444281974" duration="877000" />
+      <workItem from="1589446163348" duration="1064000" />
+      <workItem from="1589448111351" duration="854000" />
+      <workItem from="1589450625548" duration="728000" />
+      <workItem from="1589452432274" duration="1192000" />
+      <workItem from="1589454251212" duration="600000" />
+      <workItem from="1589456057671" duration="763000" />
+      <workItem from="1589458975019" duration="615000" />
+      <workItem from="1589460788012" duration="596000" />
+      <workItem from="1589499749248" duration="618000" />
+      <workItem from="1589501769254" duration="1192000" />
+      <workItem from="1589507896953" duration="20302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="524" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589161317676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1589161317676" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589332089620">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589332089620" />
+    <state width="1035" height="466" key="DebuggerActiveHint" timestamp="1589336278661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1035" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1589336278661" />
+    <state x="115" y="135" key="FileChooserDialogImpl" timestamp="1589508299328">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="115" y="135" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589508299328" />
+    <state width="1493" height="15" key="GridCell.Tab.0.bottom" timestamp="1589336392878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="15" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589336392878" />
+    <state width="1493" height="15" key="GridCell.Tab.0.center" timestamp="1589336392878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="15" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589336392878" />
+    <state width="1493" height="15" key="GridCell.Tab.0.left" timestamp="1589336392878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="15" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589336392878" />
+    <state width="1493" height="15" key="GridCell.Tab.0.right" timestamp="1589336392878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="15" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589336392878" />
+    <state width="1493" height="15" key="GridCell.Tab.1.bottom" timestamp="1589336392878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="15" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589336392878" />
+    <state width="1493" height="15" key="GridCell.Tab.1.center" timestamp="1589336392878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="15" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589336392878" />
+    <state width="1493" height="15" key="GridCell.Tab.1.left" timestamp="1589336392878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="15" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589336392878" />
+    <state width="1493" height="15" key="GridCell.Tab.1.right" timestamp="1589336392878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="15" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589336392878" />
+    <state x="272" y="56" key="SettingsEditor" timestamp="1589223666173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589223666173" />
+    <state width="775" height="416" key="XDebugger.FullValuePopup" timestamp="1589238174807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="416" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1589238174807" />
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1589453251048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589453251048" />
+    <state x="567" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589163405852">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="567" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1589163405852" />
+    <state x="323" y="147" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1589237805655">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="323" y="147" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1589237805655" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/initialize.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/db.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/service/Request.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/service/Request.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/service/Request.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/service/Request.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mock/mock_server.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/service/Request.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cbs_cntl.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cbs_cntl.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cbs$Start.coverage" NAME="Start Coverage Results" MODIFIED="1589336360655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myblog$Start.coverage" NAME="Start Coverage Results" MODIFIED="1589256304387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myblog$db.coverage" NAME="db Coverage Results" MODIFIED="1588460901743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

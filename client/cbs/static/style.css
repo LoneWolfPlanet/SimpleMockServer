@@ -1,0 +1,51 @@
+body {
+}
+.convo {
+    
+    border: 1px;
+    border-style: inset;
+    height:230px;
+    overflow: scroll;
+}
+.knowledge {
+    border: 1px;
+    border-style: inset;
+    height:500px;
+    overflow: scroll;       
+}
+.left_menu{
+    border: 10px solid white;
+}
+.subnav {
+    background-color: #20639b;    
+}
+
+.form {
+    background-color: #dddddd;
+    height:230px;
+    margin-top: 10px;
+    overflow: scroll;
+}
+.img_responsive {
+  margin-top: 20px;
+  margin-left: 5px;
+  width: 100%;
+  height: auto;
+}
+#left_panel {
+  background-color: #dddddd;
+  color:#000;
+}
+.left_panel_info {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.inputform{
+    margin-left: 5px;
+}
+.keyword {
+    background-color: yellow;
+}
+.not_keyword {
+    background-color: none;
+}

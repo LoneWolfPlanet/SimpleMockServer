@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="row">
+    <div class="col-2 left_menu">
+    	<div class="row">
+      		<img src="https://i.pinimg.com/564x/8e/a1/19/8ea1198d59d3321f0a429edbfd913b51.jpg" class="img_responsive"/>
+      	</div>
+
+      	<div class="row">
+      		<ul class="list-group row left_panel_info">
+			  <li class="list-group-item" id = "left_panel">明日はちょうど憎みます</li>
+			  <li class="list-group-item" id = "left_panel">中のタンパク質と抗酸化物質</li>
+			  <li class="list-group-item " id = "left_panel">ライオンスマイルサッカー</li>
+			  <li class="list-group-item " id = "left_panel">そして、メインゲート</li>
+			  <li class="list-group-item " id = "left_panel">製造業エロス</li>
+			  <li class="list-group-item " id = "left_panel">ライオンスマイルサッカ</li>
+			  <li class="list-group-item " id = "left_panel">そして、メインゲート</li>
+			</ul>
+      	</div>		
+    </div>
+    <div class="col-6">
+		{% block title %}サンプルの会話{%endblock%}
+		  <div class="convo">
+		  	<p>テスト中</p>
+		  	<!-- <p>Method_1:  {{data['content'] }}</p> -->
+	  			<p id="demo">test</p>
+		  </div>
+		  <div class="form">
+		  			  <!--<button class="untagged">untagged</button>-->
+		    <p class="inputform">
+		      情報
+		      <input type="checkbox" id="check_keyword">	
+		      <input style="margin-top: 10px;" type="text" id="input_keyword">
+		  	</p>
+		  	<p class="inputform">
+		      情報
+		      <input type="checkbox" id="check_keyword">	
+		      <input style="margin-top: 10px;" type="text" id="input_keyword2">
+		  	</p>
+		  	<p class="inputform">
+		      情報
+		      <input type="checkbox" id="check_keyword">	
+		      <input style="margin-top: 10px;" type="text" id="input_keyword3">
+		  	</p>
+		  	<p class="inputform">
+		      情報
+		      <input type="checkbox" id="check_keyword">	
+		      <input style="margin-top: 10px;" type="text" id="input_keyword4">
+		  	</p>
+
+		  </div>
+		  <div class="action">
+		  	<button type="button" class="btn btn-dark">セーブ</button>
+		  </div>	
+	</div>
+    <div class="col-4">
+      	<span>知識</span>
+      	<div class="knowledge">
+		  	<h3>初期マニュアル</h3>
+		  	<p>ニンジンより弓の笑顔が、パフォーマンスの葬儀でのボート。病気の最大のがあるかもしれません。アウェイ彼のベストセラーとバリウスvehicula turpis。マエケナスのゼンパーが、妊娠しているかの選手ではありませんでし。借り換え。週末の前に存在、Iない前庭mauris dignissimそうではありません。今、製造トラックを飲みたいです。</p>
+		  	<p>ニンジンより弓の笑顔が、パフォーマンスの葬儀でのボート。病気の最大のがあるかもしれません。アウェイ彼のベストセラーとバリウス</p>
+		  	<h4>サンプルの説明</h4>
+		  	<p>ニンジンより弓の笑顔が、パフォーマンスの葬儀でのボート。病気の最大のがあるかもしれません。アウェイ彼のベストセラーとバリウス</p>
+		  	<b>サンプルの説明</b>
+		  	<p>ニンジンより弓の笑顔が、パフォーマンスの葬儀でのボート。病気の最大のがあるかもしれません。アウェイ彼のベストセラーとバリウス</p>
+		 </div>
+    </div>
+  </div>
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+  // jQuery methods go here...
+  var name = "{{ data['name'] }}"		
+  var sentence = "{{ data2['sentence'] }}"
+  var keywords = "{{ data2['keywords'] }}".split(' ')
+
+  //============ for english sentence. ==============	  
+  // var sentence_array = sentence.split(' ')
+  
+  // for(var i=0; i<sentence_array.length; i++) {
+  // 	for(var x=0; x<keywords.length; x++) {
+  // 		if(keywords[x].toUpperCase() == sentence_array[i].toUpperCase()) {
+  // 			sentence_array[i] = "<span style=\"background-color:red\">"+sentence_array[i]+"</span>"
+  // 		}
+  // 	}
+  // }
+  //$("#demo").html(sentence_array.join(" "));
+
+  //============ for jap sentence. ==============	
+  var sentence_array = sentence.split('')
+  for(var i=0; i<sentence_array.length; i++) {
+  	for(var x=0; x<keywords.length; x++) {
+  		if(keywords[x].indexOf(sentence_array[i]) > -1) {
+  			sentence_array[i] = "<span id=\"key\" class=\"keyword\">"+sentence_array[i]+"</span>"
+  		}
+  	}
+  }
+
+  $("#demo").html(sentence_array.join(""));
+  //TODO: highlighting using css
+
+  $('button.untagged').on('click', function () {
+  	 //$( "span:contains('三菱')" ).css( "text-decoration", "underline" );
+  	 //$('#key').toggleClass("keyword2 keyword3"); //you can list several class names 
+     $('span:contains("菱")').toggleClass("keyword not_keyword");
+   });
+
+  $('#check_keyword').on('click', function () {
+  	 var input_keyword = $('#input_keyword').val().split("")
+  	 for(var i=0; i<input_keyword.length; i++) {
+  	 	$('span:contains('+input_keyword[i]+')').toggleClass("keyword not_keyword");
+  	 }
+   });
+
+}); 
+
+</script>
+
+{% endblock %}
+
+
